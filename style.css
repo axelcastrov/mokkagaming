@@ -1,0 +1,69 @@
+:root {
+    --color-1: #9fe7f5;
+    --color-2: #429ebd;
+    --color-3: #053f5c;
+    --color-4: #f7ad19;
+    --color-5: #f27f0c;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-4);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    margin: 30px;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#home {
+    height: 100vh;
+    background: url("/img/spiderman2cover.jpeg") no-repeat center center fixed;
+    background-size:contain;
+    color: #fff;
+}
+
+.home-banner {
+    text-align: center;
+    background-color: var(--black);
+    gap: 1rem;
+    opacity: 0.9;
+    padding: 3rem;
+  }
+  .home-banner > h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .home-banner > h3 {
+    font-size: 1.5rem;
+  }
+  
